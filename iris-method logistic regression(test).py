@@ -57,34 +57,3 @@ y_pred=logreg.predict(X_test)
 print("Test: {}\nPredict: {}".format(y_test,y_pred))
 accuracy = logreg.score(X_test,y_test)
 print("Accuracy of the model: {:.4f}" .format(accuracy))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
